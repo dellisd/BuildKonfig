@@ -1,0 +1,274 @@
+Syncing notes with 'Pixel 4' on Sun, 02 May 2021 20:15:28 UTC
+Resetting to sha1: 55ce87c (Setup syncing on 'Pixel 4').
+Syncing for the first time. Backing up notes to 'press-notes-backup-1619986529710' branch.
+ • welcome_to_press.md (id=e731d56f-8db6-4351-a05e-8df27d5086f0)
+ • markdown_guide.md (id=8f4192fd-38cf-4c15-8ac7-028d15fe5fc3)
+ • untitled_note.md (id=1cd15023-3848-473e-8d81-3852e4052a31)
+Pulled upstream. Moved head from 55ce87c - Setup syncing on 'Pixel 4' to c9c5534 - Setup syncing on 'Pixel 4'.
+
+Pulled changes (43):
+ • Add(path=.github/FUNDING.yml)
+ • Add(path=.github/workflows/pullrequest.yml)
+ • Add(path=.github/workflows/release.yml)
+ • Add(path=.gitignore)
+ • Add(path=.idea/codeStyles/Project.xml)
+ • Add(path=.idea/codeStyles/codeStyleConfig.xml)
+ • Add(path=.idea/dictionaries/dic.xml)
+ • Add(path=CHANGELOGS.md)
+ • Add(path=LICENSE)
+ • Add(path=README.md)
+ • Add(path=RELEASING.md)
+ • Add(path=build.gradle.kts)
+ • Add(path=buildSrc/build.gradle.kts)
+ • Add(path=buildSrc/src/main/kotlin/com/codingfeline/buildkonfig/buildsrc/Config.kt)
+ • Add(path=buildkonfig-compiler/build.gradle.kts)
+ • Add(path=buildkonfig-compiler/gradle.properties)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/BuildKonfigData.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/BuildKonfigEnvironment.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/Constants.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/FieldSpec.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/TargetConfig.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/TargetConfigFile.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/TargetName.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/generator/BuildKonfigCompiler.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/generator/BuildKonfigGenerator.kt)
+ • Add(path=buildkonfig-gradle-plugin/build.gradle.kts)
+ • Add(path=buildkonfig-gradle-plugin/gradle.properties)
+ • Add(path=buildkonfig-gradle-plugin/src/main/kotlin/com/codingfeline/buildkonfig/gradle/BuildKonfigExtension.kt)
+ • Add(path=buildkonfig-gradle-plugin/src/main/kotlin/com/codingfeline/buildkonfig/gradle/BuildKonfigPlugin.kt)
+ • Add(path=buildkonfig-gradle-plugin/src/main/kotlin/com/codingfeline/buildkonfig/gradle/BuildKonfigTask.kt)
+ • Add(path=buildkonfig-gradle-plugin/src/main/kotlin/com/codingfeline/buildkonfig/gradle/TargetConfigDsl.kt)
+ • Add(path=buildkonfig-gradle-plugin/src/main/kotlin/com/codingfeline/buildkonfig/gradle/TargetConfigFactory.kt)
+ • Add(path=buildkonfig-gradle-plugin/src/test/kotlin/com/codingfeline/buildkonfig/gradle/BuildKonfigPluginFlavorTest.kt)
+ • Add(path=buildkonfig-gradle-plugin/src/test/kotlin/com/codingfeline/buildkonfig/gradle/BuildKonfigPluginTest.kt)
+ • Add(path=gradle.properties)
+ • Add(path=gradle/maven-publish.gradle)
+ • Add(path=gradle/wrapper/gradle-wrapper.jar)
+ • Add(path=gradle/wrapper/gradle-wrapper.properties)
+ • Add(path=gradlew)
+ • Add(path=gradlew.bat)
+ • Add(path=sample/build.gradle)
+ • Add(path=sample/settings.gradle)
+ • Add(path=settings.gradle.kts)
+
+Processing commits from null to c9c5534
+ • ec4c431 - Initial commit
+ • 6f43595 - add basic project structure
+ • 8d86b03 - :construction: add dsl
+ • b6e3ff5 - :heavy_plus_sign: README
+ • 96ef966 - :construction: compiler
+ • 264f274 - :arrow_up: kotlin 1.3.20
+ • 34817c1 - remove unneeded dependencies
+ • 7dd1928 - :arrow_up: Gradle 5.1.1
+ • 45cfec7 - convert to Kotlin
+ • a09778a - add code style
+ • 8116876 - check if Kotlin Multiplaform Plugin is applied
+ • db38c5a - :construction: register task for each valid build task
+ • 9c57445 - :construction:
+ • a70ee5b - :construction:
+ • d3d29a5 - register task depending on target/compilation
+ • 6e9997a - :construction:
+ • 5b6dbf7 - :construction:
+ • fbbc01a - generate BuildKonfig
+ • 93886c7 - :construction: integrateTask, generate all config files
+ • 4391138 - :construction: generate config files for each target
+ • c19a23d - :white_check_mark: add more test
+ • d7718ca - :memo: adding documents
+ • 22ae1d1 - :memo: update readme
+ • 2285ee7 - Prepare for release v0.1.0
+ • 8ac6884 - fix artifact name
+ • 9a13fbf - add bintray badge
+ • ae78b8b - update readme
+ • cc4f32f - fix readme
+ • 708f66b - clean up code
+ • 144378e - :memo: generateBuildKonfig
+ • c08f8f9 - Prepare for next development iteration
+ • 2c4849d - add requirement
+ • 9e811d6 - update readme
+ • 0aead17 - Update README.md
+ • 3d5e3da - :bug: `${target}Main` is not properly handled
+ • 7e1a279 - :fire: remove unused file
+ • d1e3d2f - Escape `$` in String value [close #5]
+ • 3c9459e - make it internal [close #6]
+ • ec28db3 - Prepare for release v0.2.0
+ • 1f0305e - Prepare for next development iteration
+ • c1a1b9e - create output directories on configuration time [close #7]
+ • 87b1ff3 - Update CHANGELOGS.md
+ • 8fe7995 - mark non-input/output properties as @Internal
+ • 678802f - Merge remote-tracking branch 'origin/master'
+ • 0f0a928 - suppress warnings
+ • e69e6a8 - :white_check_mark: kotlin-no-mpp
+ • 6235091 - BuildKonfig is now available on jcenter
+ • 527d188 - :memo: update readme
+ • 79d3196 - Prepare for release v0.2.1
+ • 7f0c9bc - Prepare for next development iteration
+ • 6780a2a - update changelo
+ • 4d36364 - :construction:
+ • 989b4b3 - :construction: merge flavored TargetConfig
+ • 7a727f7 - :white_check_mark: test for no defaultConfigs configuration
+ • b1f0af2 - :white_check_mark: test for flavor
+ • 8b9e9aa - :construction: README
+ • a8c18fb - :construction: README
+ • 65ea3db - :construction: README
+ • a62050f - :lipstick:
+ • 5e3f69a - add buildkonfig to dictionary
+ • 260b50a - :white_check_mark: more tests for flavor
+ • 83ecc23 - add changelog
+ • 636bbd4 - Merge pull request #9 from yshrsmz/issue/8-flavor
+ • a819e4d - :white_check_mark: test for non-existent flavor
+ • 88b9688 - more detailed error message
+ • e263d8d - :arrow_up: update dependencies
+ • 7bdf09a - Prepare for release v0.3.0.
+ • a355be6 - fix releasing.md
+ • 797e054 - Prepare for next development iteration
+ • 34dfc52 - update readme
+ • 2f9765c - this file should not be versioned
+ • fe57cee - Update README.md
+ • 02af300 - :bug: delete output directories before generating codes [close #12]
+ • 07c9d33 - :lipstick: rewrite BuildKonfigPluginTest [close #10]
+ • 4c1e93e - Prepare for release v0.3.1.
+ • 3978b4d - Prepare for next development iteration
+ • f1eea4a - :arrow_up: update dependencies
+ • 5bc63de - :arrow_up: Gradle 5.4.1
+ • c4c2323 - :arrow_up: update dependencies
+ • f066614 - buildkonfig task should depends on compileKotlin tasks
+ • 4694239 - Prepare for release v0.3.2.
+ • 71d413f - Prepare for next development iteration
+ • 7442dd9 - :arrow_up: kotlin 1.3.41
+ • fcbee29 - :white_check_mark: fix test
+ • 2677fef - git commit -am "Prepare for release v0.3.3."
+ • 3837538 - Prepare for release v0.3.3
+ • 40c05c3 - Prepare for next development iteration
+ • 14c850e - :arrow_up: update dependencies
+ • 2ca375a - update README
+ • 2b9f11d - Prepare for release v0.3.4
+ • 73a7cf3 - Prepare for next development iteration
+ • 52ddcbd - Use plugins block and use double quotes for easier Kotlin DSL migration
+ • da4bf6a - Migrate Gradle Groovy scripts to Kotlin DSL (except gradle-mvn-push.gradle) #13
+ • 1da0ac0 - Extract plugin and gradle wrapper version into buildSrc
+ • c6ce06a - Rename build source package for build source and add Config.kt to Git
+ • 6ab4828 - Issue/13/migrate to gradle kotlin dsl (#14)
+ • af077f3 - Create FUNDING
+ • a9ace7c - Create FUNDING.yml
+ • 984ac0f - Delete FUNDING
+ • 3c48fc2 - :arrow_up: update dependencies
+ • 917f762 - add simple sample project
+ • b366ec0 - add kotlin plugin to sample
+ • 76e2434 - add simple sample project (#19)
+ • 8f6b3ac - generate common object if there's no targetConfigs
+ • ea4fcfb - Generate simple object without expect/actual if there's no target… (#18)
+ • 9263bfa - Prepare for release v0.4.0
+ • 214eaa2 - :arrow_up: kotlin 1.3.61
+ • 403fe90 - Prepare for next development iteration
+ • 6da7f4d - initial nullable support
+ • e6622ac - added ability to write null
+ • 5ff9c7b - Added nullable support (#21)
+ • 5ab07a2 - add CI
+ • 58e74ae - update changelog
+ • 1854c71 - fix workflow
+ • 46a09b5 - update changelog (#22)
+ • 4a0a7ef - Update pullrequest.yml
+ • 47dc441 - Update pullrequest.yml (#25)
+ • fb4e455 - add cache step to pullrequest workflow
+ • 7a59849 - Update pullrequest.yml
+ • d46139b - cache key should respect buildSrc
+ • 03309ec - add cache step to pullrequest workflow (#26)
+ • 1e756bd - bump gradle version to 5.6.4
+ • 48b64dc - bump gradle version to 5.6.4 (#27)
+ • 47a2da6 - migrate to maven-publish plugin
+ • cdbe78b - remove unneeded
+ • 13e9686 - add release action
+ • b926e05 - Release action (#28)
+ • b5e21a7 - :arrow_up: update dependencies
+ • d723f4e - update README and CHANGELOG
+ • 203e745 - prepare for release
+ • 1276ce8 - fix release action
+ • 53086bb - prepare for next development iteration
+ • 6675178 - update changelog format
+ • 32dee1c - Merge pull request #29 from yshrsmz/changelog
+ • ab26873 - :arrow_up: update dependencies
+ • a9797b9 - prepare for release 0.5.2
+ • 86a9e22 - update readme
+ • dc605d1 - Merge pull request #30 from yshrsmz/readme
+ • c9c5534 - Setup syncing on 'Pixel 4'
+
+Syncing changes (44)
+ • Add(path=.github/FUNDING.yml)
+ • Add(path=.github/workflows/pullrequest.yml)
+ • Add(path=.github/workflows/release.yml)
+ • Add(path=.gitignore)
+ • Add(path=.idea/codeStyles/Project.xml)
+ • Add(path=.idea/codeStyles/codeStyleConfig.xml)
+ • Add(path=.idea/dictionaries/dic.xml)
+ • Add(path=.press/README.md)
+ • Add(path=CHANGELOGS.md)
+   creating new note for CHANGELOGS.md with id=0dcb0d8b-cb54-452f-abd3-a106806d7785
+ • Add(path=LICENSE)
+ • Add(path=README.md)
+   creating new note for README.md with id=032a5250-5509-43e3-9d93-10e3d9989285
+ • Add(path=RELEASING.md)
+   creating new note for RELEASING.md with id=dfded6b4-2434-4e25-8918-14211112c335
+ • Add(path=build.gradle.kts)
+ • Add(path=buildSrc/build.gradle.kts)
+ • Add(path=buildSrc/src/main/kotlin/com/codingfeline/buildkonfig/buildsrc/Config.kt)
+ • Add(path=buildkonfig-compiler/build.gradle.kts)
+ • Add(path=buildkonfig-compiler/gradle.properties)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/BuildKonfigData.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/BuildKonfigEnvironment.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/Constants.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/FieldSpec.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/TargetConfig.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/TargetConfigFile.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/TargetName.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/generator/BuildKonfigCompiler.kt)
+ • Add(path=buildkonfig-compiler/src/main/kotlin/com/codingfeline/buildkonfig/compiler/generator/BuildKonfigGenerator.kt)
+ • Add(path=buildkonfig-gradle-plugin/build.gradle.kts)
+ • Add(path=buildkonfig-gradle-plugin/gradle.properties)
+ • Add(path=buildkonfig-gradle-plugin/src/main/kotlin/com/codingfeline/buildkonfig/gradle/BuildKonfigExtension.kt)
+ • Add(path=buildkonfig-gradle-plugin/src/main/kotlin/com/codingfeline/buildkonfig/gradle/BuildKonfigPlugin.kt)
+ • Add(path=buildkonfig-gradle-plugin/src/main/kotlin/com/codingfeline/buildkonfig/gradle/BuildKonfigTask.kt)
+ • Add(path=buildkonfig-gradle-plugin/src/main/kotlin/com/codingfeline/buildkonfig/gradle/TargetConfigDsl.kt)
+ • Add(path=buildkonfig-gradle-plugin/src/main/kotlin/com/codingfeline/buildkonfig/gradle/TargetConfigFactory.kt)
+ • Add(path=buildkonfig-gradle-plugin/src/test/kotlin/com/codingfeline/buildkonfig/gradle/BuildKonfigPluginFlavorTest.kt)
+ • Add(path=buildkonfig-gradle-plugin/src/test/kotlin/com/codingfeline/buildkonfig/gradle/BuildKonfigPluginTest.kt)
+ • Add(path=gradle.properties)
+ • Add(path=gradle/maven-publish.gradle)
+ • Add(path=gradle/wrapper/gradle-wrapper.jar)
+ • Add(path=gradle/wrapper/gradle-wrapper.properties)
+ • Add(path=gradlew)
+ • Add(path=gradlew.bat)
+ • Add(path=sample/build.gradle)
+ • Add(path=sample/settings.gradle)
+ • Add(path=settings.gradle.kts)
+
+Committing unsynced notes (3):
+ • welcome_to_press.md (id=e731d56f-8db6-4351-a05e-8df27d5086f0)
+   picking local copy and discarding remote (if any)
+ • markdown_guide.md (id=8f4192fd-38cf-4c15-8ac7-028d15fe5fc3)
+   picking local copy and discarding remote (if any)
+ • untitled_note.md (id=1cd15023-3848-473e-8d81-3852e4052a31)
+   picking local copy and discarding remote (if any)
+   deleting untitled_note.md
+
+Processing commits from 13caf57 to 5fd0bdc
+ • 13caf57 - Create new file name records
+ • 0ef73af - Update 'welcome_to_press.md'
+ • 233d43d - Update 'markdown_guide.md'
+ • 9289f46 - Update 'untitled_note.md'
+ • 5fd0bdc - Delete 'untitled_note.md'
+
+Syncing changes (5)
+ • Add(path=.press/registers/markdown_guide.meta)
+ • Add(path=.press/registers/untitled_note.meta)
+ • Add(path=.press/registers/welcome_to_press.meta)
+ • Add(path=markdown_guide.md)
+   skipping markdown_guide.md (already saved)
+ • Add(path=welcome_to_press.md)
+   skipping welcome_to_press.md (already saved)
+
+Syncing deletions
+ • untitled_note.md
+   permanently deleting NoteId(1cd15023-3848-473e-8d81-3852e4052a31)
+
+Pushing changes
+Wrapping up sync (before push) on Sun, 02 May 2021 20:15:35 UTC
